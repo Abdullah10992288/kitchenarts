@@ -5,6 +5,9 @@ const nextConfig: NextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  eslint: {
+    ignoreDuringBuilds: false,
+  },
   rules: {
     "@typescript-eslint/no-explicit-any": "off",
     "eslint-disable": " @typescript-eslint/no-explicit-any",
