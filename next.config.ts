@@ -7,6 +7,7 @@ const nextConfig: NextConfig = {
   },
   rules: {
     "@typescript-eslint/no-explicit-any": "off",
+    "eslint-disable": " @typescript-eslint/no-explicit-any",
   },
 };
 
