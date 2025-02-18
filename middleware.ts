@@ -1,5 +1,9 @@
 export { default } from "next-auth/middleware";
 
 export const config = {
-  matcher: ["/dashboard", "/dashboard/subscribers", "/dashboard/menu"],
+  matcher: [
+    `${process.env.SITE_URL}/dashboard`,
+    `${process.env.SITE_URL}/dashboard/subscribers`,
+    `${process.env.SITE_URL}/dashboard/menu`,
+  ],
 };

@@ -25,7 +25,7 @@ export default function Login() {
         setError("Invalid Credentials");
         return;
       }
-      router.push("/dashboard");
+      router.push(`${process.env.SITE_URL}/dashboard`);
     } catch (error) {
       console.log(error);
       throw new Error("Failed To Upload Admin!");
