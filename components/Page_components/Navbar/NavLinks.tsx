@@ -86,9 +86,7 @@ const NavLink = ({
       onClick={() => {
         setActive(title);
       }}
-      className={`font-black flex flex-col items-center gap-1 transition-colors transition-0.8 tracking-wider text-[18px] hover:text-[#856B39] ${
-        active === title && "text-[#856B39]"
-      }`}
+      className={`font-black flex flex-col items-center gap-1 transition-colors transition-0.8 tracking-wider text-[18px] hover:text-[#856B39]`}
     >
       <p>{title}</p>
       <div
