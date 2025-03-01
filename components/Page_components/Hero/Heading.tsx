@@ -7,7 +7,7 @@ import TextAnimation from "@/components/Animations/TextAnimation";
 
 export default function heading() {
   return (
-    <div className="flex flex-col gap-8 min-[1185px]:gap-[100px]">
+    <div className="flex flex-col gap-8 min-[1185px]:gap-[80px]">
       <div className="p-3 flex flex-col items-center justify-center">
         <div className="flex items-center gap-3 sm:gap-6 justify-center">
           <TextAnimation
@@ -30,7 +30,7 @@ export default function heading() {
           styles="min-[1690px]:text-[120px] sm:text-[80px] text-[30px] min-[405px]:text-[50px] leading-tight text-[#AD9A74] font-black min-[1185px]:flex min-[1185px]:text-center"
         />
       </div>
-      <div className="flex flex-col gap-8 p-3">
+      <div className="flex flex-col gap-6 p-3">
         <div className="flex gap-3 overflow-hidden">
           <PlaceIcon className="text-[#856B39] text-[40px]" />
           <ImageAnimation delay={0.5}>

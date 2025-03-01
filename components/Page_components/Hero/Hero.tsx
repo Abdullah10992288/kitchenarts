@@ -8,7 +8,7 @@ import TextAnimation from "@/components/Animations/TextAnimation";
 export default function Hero() {
   return (
     <section className="text-white px-9 max-sm:px-3 sm:py-3 max-w-[2500px] w-full">
-      <div className="flex max-[1185px]:flex-col items-center justify-center gap-10">
+      <div className="flex max-[1185px]:flex-col flex-row-reverse items-center justify-center gap-10">
         <ImageAnimation styles="min-[1185px]:max-w-[45%] overflow-hidden">
           <Image
             src={burger}

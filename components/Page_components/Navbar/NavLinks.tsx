@@ -8,7 +8,7 @@ export default function NavLinks() {
   const [active, setActive] = useState("home");
   const { data: session } = useSession();
   return (
-    <div className="flex max-[840px]:flex-col min-[840px]:gap-10 gap-7 items-center justify-center">
+    <div className="flex max-[840px]:flex-col min-[840px]:gap-10 gap-7 items-center justify-center bg-transparent">
       <NavLink
         title="Home"
         hover={hover}
@@ -86,11 +86,11 @@ const NavLink = ({
       onClick={() => {
         setActive(title);
       }}
-      className={`font-black flex flex-col items-center gap-1 transition-colors transition-0.8 tracking-wider text-[18px] hover:text-[#856B39]`}
+      className={`bg-transparent font-black flex flex-col items-center gap-1 transition-colors transition-0.8 tracking-wider text-[18px] hover:text-[#856B39]`}
     >
-      <p>{title}</p>
+      <p className="bg-transparent">{title}</p>
       <div
-        className={`h-2 w-2 transition-colors transition-1 bg-none max-[840px]:hidden rounded-full ${
+        className={`h-2 bg-transparent w-2 transition-colors transition-1 bg-none max-[840px]:hidden rounded-full ${
           hover === title && "bg-[#856B39] block"
         }`}
       />
