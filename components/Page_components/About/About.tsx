@@ -38,24 +38,17 @@ export default function About() {
           </div>
           <div className="flex gap-5 flex-col py-5">
             <TextAnimation
-              heading="When we opened 595 Craft and Kitchen in June 2017, our vision was to create an unassuming watering hole for the locals. In a town with
+              heading="When we opened in June 2017, our vision was to create an unassuming watering hole for the locals. In a town with
             endless options for bars and lounges, we found it challenging to
             find a friendly bar with a solid craft beer list, good food, and
-            non-gaming/non-smoking. We wanted to provide friends and neighbors
-            alike with the original form of social networking; a fun easy going
-            bar, and a cold pint. Our staunch belief in providing exceptional
-            quality products with friendly service in a clean and welcoming
+            non-gaming/non-smoking. Our friendly service in a clean and welcoming
             setting has helped us earn the reputation among the locals as one of
             the best hidden gems in Las Vegas."
               styles="text-[25px] max-w-[650px]"
             />
 
             <TextAnimation
-              heading="Kitchen Arts is the culmination of giving our best to the community by providing great food, service, and atmosphere. Tucked
-              inside one of the premier breweries in Nevada, this collaboration
-              project allows us another opportunity to create a memorable
-              setting for you to catch up with friends and make new ones over
-              tasty bites and a refreshing beer."
+              heading="Kitchen Arts is the culmination of giving our best to the community by providing great food, service, and atmosphere. Our collaboration project in Navad allows us another opportunity to create a memorable setting for you to catch up with friends and make new ones over tasty bites and a refreshing beer."
               styles="text-[25px] max-w-[650px]"
             />
           </div>
