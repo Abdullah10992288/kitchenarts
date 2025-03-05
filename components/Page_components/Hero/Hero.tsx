@@ -1,5 +1,5 @@
 import sandwich from "@/public/Hero-Horizontal.jpg";
-import burger from "@/public/Hero-Vertical.jpg";
+import burger from "@/public/Adobe Express - file.png";
 import Image from "next/image";
 import Heading from "./Heading";
 import ImageAnimation from "@/components/Animations/ImageAnimation";
@@ -8,17 +8,17 @@ import TextAnimation from "@/components/Animations/TextAnimation";
 export default function Hero() {
   return (
     <section className="text-white px-9 max-sm:px-3 sm:py-3 max-w-[2500px] w-full">
-      <div className="flex max-[1185px]:flex-col flex-row-reverse items-center justify-center gap-10">
+      <div className="flex max-sm:mt-3 max-[1185px]:flex-col items-center justify-center gap-10">
+        <Heading />
         <ImageAnimation styles="min-[1185px]:max-w-[45%] overflow-hidden">
           <Image
             src={burger}
             alt="Img"
             width={1000}
             height={1000}
-            className="object-cover w-full h-full rounded-lg max-h-[900px]"
+            className="object-cover md:mt-16 w-auto h-auto rounded-lg max-h-[900px]"
           />
         </ImageAnimation>
-        <Heading />
       </div>
       <div className="flex items-center justify-center gap-[10%] max-[1461px]:flex-col py-6 max-[1185px]:mt-6">
         <div className="border-y-[7px] overflow-hidden border-[#856B39]">
